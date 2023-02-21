@@ -1,0 +1,41 @@
+.card-span {
+  font-weight: 900;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 98vw;
+}
+
+#card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#card img {
+  height: 25vh
+}
+
+#random {
+  margin-left: 10%;
+}
+
+#box {
+  align-self: center;
+  height: 30vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 2%;
+}
+
+button {
+  height: 30vh;
+  width: 60vw;
+  text-align: center;
+}
